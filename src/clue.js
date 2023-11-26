@@ -64,8 +64,8 @@ lastName: "Mustard",
 occupation: "Retired Football player",
 age: 62,
 description: "He is a former football player who tries to get by on his former glory",
-image: https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/07/04/08/unspecified-3.jpg,
-color: yellow
+image: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/07/04/08/unspecified-3.jpg",
+color: "yellow"
 } 
 ]; 
 
@@ -119,7 +119,7 @@ const randomRoom = selectRandom(roomsArray);
 return {
     suspect: randomName,
     weapon: randomWeapon,
-    room: randomRoom
+    room: randomRoom,
   };
 };
 const mystery = pickMystery();
